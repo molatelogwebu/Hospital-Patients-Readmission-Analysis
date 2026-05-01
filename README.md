@@ -49,24 +49,31 @@ Tools Used
 2. Handled missing values:
 a.  Text Columns:
 =IF(C2="";”UNKNOWN”C2)
+
 b. Numeric Columns:
 =IF(B2="";0; H2)
+
 c. Standardized text columns using:
 =PROPER(TRIM(F2))
 =UPPER(TRIM(E2))
+
 d.  Validate Age:
 =IF(OR(D2<0;D2>120),”CHECK”D2)
 
 Calculations;
 1. Age Group
 =IF(D2<18;”Child”;IF(D2<40;”Young Adult; IF(D2<65;”Adult”, “Senior”)))
+
 2. Admission Month
 = TEXT(B2;”MMM”)
+
 3. Admission Year
 = YEAR(B2)
+
 4. Readmission Risk Category
 =IF(P2<0.3,"Low",
 IF(P2<0.7,"Medium","High"))
+
 5. Frequent Patient Flag
 =IF(M2>=3,"Frequent","Normal")
 
