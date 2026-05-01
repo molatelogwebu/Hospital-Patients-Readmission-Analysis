@@ -1,0 +1,12 @@
+hospital-readmission-analysis/
+│
+├── data/
+│   └── hospital_readmission.xlsx
+│
+├── docs/
+│   └── data_description.md
+│
+├── images/
+│   └── dashboard.png
+│
+└── README.md
