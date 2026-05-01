@@ -42,7 +42,8 @@ Objectives
 
 Tools Used
 - Excel
+- Power Bi
 
 
 Author
-Molatelo Gwebu
+- Molatelo Gwebu
