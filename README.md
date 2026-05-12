@@ -1,38 +1,33 @@
 Hospital Readmission Analysis
 
-Analysing hospital readmission trends using Excel.
+- Analysing hospital readmission trends using Excel.
 
 Project Overview
+
 This project analyzes hospital readmission data to identify patterns and factors contributing to patient readmissions.
 
-Dataset
+Dataset description:
 
-The dataset is stored in the hospital readmission analysis folder and contains patient level hospital data including:
-- Admission details
-- Diagnosis information
-- Readmission status
-- Patient id
-- Admission Date
-- Season
-- Age
-- Gender
-- Region
-- Primary diagnosis
-- Comorbidities Count
-- Length of Stay
-- Treatment type
-- Medications count
-- Followup Visits Last Year
-- PreviousReadmissions
-- Insurance Type
-- Discharge Disposition
-- Readmission Risk Score
-- Label
-- Age Group
-- Admission Month
-- Admission Year
-- Readmission Risk Category
-- Frequent Patient Flag
+Source: Kaggle - hospital patient readmission dataset
+
+Records: (8000 patient records) 
+
+Key Features:
+
+- Patient demographics (age, gender)
+
+- Medical conditions / diagnoses
+
+- Number of prior visits
+
+- Length of stay
+
+- Medications and treatments
+
+Target Variable:
+
+- Readmission Status 
+
 
 Objectives
 
@@ -40,9 +35,38 @@ Objectives
 - Analyze trends across patient groups
 - Support healthcare decision-making
 
+Key Insights
+
+- For some patients, the rate of readmission is high
+  
+- Patients who stay long at hospitals have high chances of readmission
+  
+- There are some conditions that are related to readmission
+  
+- Intervening early helps in reducing readmission
+
+Business Recommendations:
+
+Considering the analysis conducted on the readmissions rate among patients at hospitals, the following business recommendations can assist healthcare providers to achieve better results:
+
+- Create a follow-up program for patients who are considered at high risk of being readmitted
+
+- Enhance the discharge process and educate patients to prevent unnecessary readmissions
+
+- Utilize advanced analytics to recognize patients with higher chances of being readmitted
+
+- Assign additional funding to departments with high readmission rates
+
+- Offer more preventive care services for chronic diseases management
+
+- Create interactive dashboards to track key indicators of readmission and hospital performance
+
+  
 Tools Used
 - Excel
 - Power Bi
+
+Methodology:
 
 - Data Cleaning:  
 1. Checked for duplicates — none found.
