@@ -71,6 +71,7 @@ Methodology:
 - Data Cleaning:  
 1. Checked for duplicates — none found.
 2. Handled missing values:
+   
 a.  Text Columns:
 =IF(C2="";”UNKNOWN”C2)
 
